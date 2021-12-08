@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+	<div class="menu-overlay"></div>
+	<div class="menu_burger">
+		<div class="burger_container">
+			<div class="burger_block">
+				<a href="javascript:;" onclick="scrollToElem('about_us')">Кто мы</a>
+				<a href="javascript:;" onclick="scrollToElem('partners')">Партнеры</a>
+				<a href="javascript:;" onclick="scrollToElem('progress')">Достижения</a>
+				<a href="javascript:;" onclick="scrollToElem('contacts')">Контакты</a>
+			</div>	
+			<img id="close-burger-menu" src="icons/close.svg" alt="">
+ 		</div>
+ 	</div>	
+	<header>
+		<div class="container">		
+		    <div class="header_row">           	
+		        <div class="logo">
+		        	<img class="header_logo" src="img/logo.svg" alt="">
+		        </div>
+			    <div class="menu">
+			    	<ul class="header_menu"> 	
+				       	<li><a href="javascript:;" onclick="scrollToElem('about_us')">Кто мы</a>
+				       	</li>
+				        <li><a href="javascript:;" onclick="scrollToElem('partners')">Партнеры</a>
+				        </li>
+				        <li><a href="javascript:;" onclick="scrollToElem('progress')">Достижения</a>
+				        </li>
+				        <li><a href="javascript:;" onclick="scrollToElem('contacts')">Контакты</a>
+				        </li>
+				    </ul>   						
+				</div>										
+				<div class="btn_login"><a class="login_text" href="#">Вход</a>
+				</div>
+
+				<div class="burger">
+					<span id="burger_icon"></span>
+				</div>
+      		</div>
+  		</div>	
+	</header>
+	<section class="reg">
+		<div class="container">
+			<div class="reg_row">
+				<div class="reg_column1">          			
+					<div class="reg_text">
+						<p class="text6">Армянская Цифровая Диаспора
+						</p>
+						<p class="text1">Некоммерческий портал для содействия развитию Армении и армянам по всему миру
+						</p>
+						<p class="text5">Связываем необходимости с возможностями <br>с помощью цифровых технологий
+						</p>
+						<p class="text5 data">Оставьте свои данные и узнайте, <br>чем можете быть полезным
+						</p>  					
+							<button class="red_button" type="button">Зарегистрироваться</button>
+						<p class="text5">Наша сила в сплоченности и единстве</p>
+					</div>
+				</div>
+				<div class="reg_column2">	      			
+	      			<img src="img/map.svg" alt="">	      			
+	      		</div>
+  			</div>
+		</div>
+	</section>
+	<section class="charity">
+		<div class="container">			
+			<div class="charity_row">
+				<div class="charity_column1">			 
+					<p class="text2 charity_title">
+					Благотворительность <br>сегодня
+					</p>
+					<p class="text5 charity_lid">
+					Лично участвуя в гуманитарной помощи Республике Арцах, мы столкнулись <br>с рядом проблем:
+					</p>					   
+				</div>			
+				<div class="charity_column2">
+					<div class="charity_block">
+						<span class="charity_number">01</span>
+						<div class="text5 charity_item">				
+							<p>Невозможно отследить актуальность проблемы: решена ли она полностью или частично</p>
+						</div>
+					</div>
+					<div class="charity_block">
+						<span class="charity_number">02</span>
+						<div class="text5 charity_item">				
+							<p>Заявки на оказание помощи разрозненные <br>и одновременно поступают в разные фонды</p>
+						</div>
+					</div>
+					<div class="charity_block">
+						<span class="charity_number">03</span>
+						<div class="text5 charity_item">				
+							<p>Средства уходят не по назначению или попадают в руки мошенников</p>
+						</div>
+					</div>
+					<div class="charity_block">
+						<span class="charity_number">04</span>
+						<div class="text5 charity_item">				
+							<p>Не понятно, какие имеются доступные ресурсы для удовлетворения всех потребностей</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>					
+	</section>
+
+	<section class="slogan">
+		<div class="container">
+			<div class="slogan_block">
+				<p class="slogan_text text3">Всё это, а также отсутствие возможности прогнозировать будущие мероприятия снижают эффективность и замедляют процесс оказания помощи в непростые времена для нашей Родины</p>
+			</div>
+		</div>				
+	</section>
+
+	<section class="help">
+		<div class="container">
+			<div class="help_row">
+				<div class="help_column1">
+					<img src="img/digital.svg" alt="">
+				</div>
+				<div class="help_column2">
+					<p class="text2">Помощь в эру цифровых технологий</p>
+					<p class="help_text text5">ArmPlatform объединяет нуждающихся в помощи и желающих помочь в одну автоматизированную систему, где каждый получает квалифицированную поддержку от профессионалов.</p>
+					<p class="text5 blue_text">И еще, с помощью статистики и Big data прогнозировать и объединяться для будущих вызовов</p>
+				</div>
+
+			</div>
+		</div>				
+	</section>
+
+	<section class="goals">
+		<div class="container">
+			<p class="also">А также:</p>
+			<div class="goals_row">
+				<div class="goals_columns">
+					<p class="text5">Увидеть все актуальные потребности и ресурсы <br>в одном месте</p>
+					<p class="text5">Отследить получение каждого своего рубля конечным получателем</p>
+					<p class="text5">Участвовать в глобальных проектах через консолидацию средств</p>
+					<p class="text5">Проверить подлинность заявки и обратиться к получателю напрямую</p>
+				</div>
+			</div>
+		</div>				
+	</section>
+
+	<section class="about_us" id="about_us">
+		<div class="container">
+			<div class="about_us_row">						
+				<div class="about_us_column1">
+					<p class="text2">Кто мы?</p>
+					<p class="text5">ArmPlatform создана и поддерживается на некоммерческих началах командой IT-специалистов</p>
+					<p class="text5 last_line">Внедрение новых технологий и создание прозрачных процессов в ArmPlatform исключает человеческий фактор и значительно повышает эффективность и качество благотворительной сферы.</p>						
+				</div>
+				<div class="about_us_column2">
+					<img src="img/about_us.svg" alt="">
+				</div>
+			</div>					
+		</div>				
+	</section>
+
+	<section class="about_us2">				
+		<div class="container">
+			<div class="about_us2_row">
+				<p class="about_us_column text5">За ___ лет профессиональной деятельности мы автоматизировали ___ бизнесов и оптимизировали <br>бизнес-процессы более чем в ___ компаний.</p>
+				<p class="about_us_column text5">С помощью ArmPlatform мы хотим объединить всех армян планеты для взаимопомощи и поддержки Армении <br> и Арцаха и каждого представителя нашей древней нации.</p>
+				<p class="last_column text5">Подробная информация <br> о нас на сайте: _____</p>
+			</div>
+		</div>				
+	</section>
+
+	<section class="projects">
+		<div class="container">
+			<p class="text2">Наши проекты</p>
+			<p class="text5 projects_line">Что уже работает?</p>
+			<p class="text5 projects_line2">Всего за  ___ месяц, с начала старта ArmPlatform, реализован функционал <br> для оказания гуманитарной помощи государственным учреждениям <br>Армении.</p>
+			<div class="projects_row">
+				<div class="projects_columns">
+					<p class="text5">Создана единая и актуальная <br>база заявок от нуждающихся учреждений.</p>
+					<p class="text5">Каждая организация проходит верификацию - данные проверяются на подлинность.</p>
+					<p class="text5">В любой момент можно отследить статус реализации заявки и целевое использование помощи.</p>
+					<p class="text5">Все желающие помочь, точно понимают кому и для чего необходимы средства.</p>
+					<p class="text5">Они могут напрямую связаться <br> с получателем и получить необходимые уточнения.</p>
+				</div>						
+			</div>
+		</div>				
+	</section>
+
+	<section class="request">					
+		<div class="container">
+			<p class="request_header text5">Для подачи заявки на помощь или для участия в ее оказании в качестве спонсора <br> или волонтера оставьте свои данные:</p>
+			<div class="request_row">
+				<div class="request_column1">					
+					<select name="list1">						
+						<option>Выберите организацию</option>
+						<option>Организация 1</option>
+						<option>Организация 2</option>
+						<option>Организация 3</option>
+						<option>Организация 4</option>
+						<option>Организация 5</option>
+					</select>
+					<input class="request_input" type="text" id="cvv" name="cvv" placeholder="Название организации">						
+					<input class="request_input" type="text" id="cvv" name="cvv" placeholder="Страна">						
+					<input class="request_input" type="text" id="cvv" name="cvv" placeholder="Город">	
+				</div>						
+				<div class="request_column2">
+					<input class="request_input" type="text" id="cvv" name="cvv" placeholder="Имя">					
+					<input class="request_input" type="text" id="cvv" name="cvv" placeholder="Email">
+					<input class="request_input" type="text" id="cvv" name="cvv" placeholder="Телефон">
+					<input class="request_input" type="text" id="cvv" name="cvv" placeholder="Пароль">
+				</div>
+				<div class="request_column3">
+					<form>	 
+						<button class="red_button button2" type="button">Зарегистрироваться</button>
+						<input  type="checkbox" checked="checked" class="custom-checkbox" id="terms" name="agree" value="yes">
+						<label for="terms">Я согласен с условиями соглашения</label>				
+						<p>У вас уже есть аккаунт? <a class="sign_up" href="#">Войти</a></p>
+					</form>      
+    		</div>  			
+			</div>
+		</div>		
+	</section>
+	<section class="plans">
+		<div class="container">
+			<div class="plans_row1">
+				<div class="plans_column1">
+					<p class="text2">Над чем мы <br>работаем сейчас?
+					</p>
+					<div class="plans_block">
+						<p class="text5 plans_block_text">Мы считаем, что каждый может внести вклад в жизнь своего народа</p>
+					</div>
+				</div>			
+				<div class="plans_column2">
+					<div class="plans_line">
+						<p class="text3 plans_title">Функционал “Перекличка”
+						</p>
+						<p class="plans_text text5">Готовим базу данных армян всех стран по их навыкам и квалификации для решения специализированных однотипных задач и потребностей для целых групп.	
+					</div>					
+					<div class="plans_line">
+						</p>
+						<p class="text3 plans_title">Функционал “Верификация источников информации”
+						</p>
+						<p class="plans_text text5">Разрабатываем инструментарий для проверки подлинности источника информации. Будем проверять все СМИ, блогеров и отдельных граждан Каждый армянин сможет удостоверится в достоверности данных.
+						</p>
+					</div>
+				</div>
+			</div>		
+			<div class="plans_row2">
+			  <div class="plans_column1">
+					<p class="text2">Какие дальнейшие планы?	
+					</p>
+				</div>
+				<div class="plans_column2">
+						<div class="plans_items">				
+							<p class="plan_number">01</p>
+							<p class="text3 plans_title">Разработка платформы</p>
+						</div>
+					<p class="plans_text text5">Для размещения частных объявлений по поиску жилья и работы. Чтобы каждый земляк мог рассчитывать на помощь в новом для себя месте
+					</p>
+						<div class="plans_items">
+							<p class="plan_number">02</p>
+							<p class="text3 plans_title">Создание бесплатной образовательной площадки
+							</p>
+						</div>
+					<p class="plans_text text5">Где каждый армянин сможет бесплатно повысить квалификацию, получить знания для смены профессии и обучить своих детей
+					</p>
+				</div>				
+			</div>
+		</div>
+	</section>
+
+	<section class="progress" id="progress">
+		<div class="container">
+			<p class="pro_header text2">Достижения</p>
+			<p class="pro_lid">За короткий срок существования ArmPlatform помогла тысячам людей.</p>
+			<p class="pro_title_list">Результат нашей работы в 4 цифрах:</p>
+			<div class="pro_row">					
+				<div class="pro_column1">
+					<p class="pro_column_subtitle">
+					6 стран
+					</p>
+					<p class="pro_list text5">Консолидировали благотворительную помощь из 6 стран мира: Российская Федерация, Франция, Испания, Италия, США, Армения</p>
+					<p class="pro_column_subtitle">
+					Более 500 заявок
+					</p>
+					<p class="pro_list text5">Выполнено более 500 проектов: материальной помощи, строительных работ, оборудования специализированных помещений и др.</p>
+				</div>				
+				<div class="pro_column2">
+					<p class="pro_column_subtitle">
+					8 фондов
+					</p>
+					<hr class="pro_line">
+					<p class="pro_list text5">Объединили в единую систему с 8 благотворительных фондов, что позволило выполнить большее количество запросов на помощь</p>
+					<p class="pro_column_subtitle">
+					4 учреждения
+					</p>
+					<hr>
+					<p class="pro_list text5">Поддерживаем 4 государственных учреждения и министерства Армении, которые зарегистрированы на платформе ArmPlatform</p>
+				</div>
+			</div>
+			<p class="pro_deviz">Вместе мы добьемся большего!</p>		
+				<button class="white_button" type="button">Присоединиться</button>		
+		</div>
+	</section>
+
+	<section class="partners" id="partners">
+		<div class="container">			
+			<div class="partners_row">
+				<div class="partners_column">
+					<div class="partners_logo_block">
+						<div class="partners_logo">
+							<img src="" alt="Логотип">
+						</div>						
+						<div class="partners_logo">
+							<hr class="partners_logo_line">
+							<img src="" alt="Логотип">
+						</div>
+						<div class="partners_logo">
+							<hr class="partners_logo_line">
+							<img src="" alt="Логотип">
+						</div>
+						<div class="partners_logo">
+							<img src="" alt="Логотип">
+						</div>
+						<div class="partners_logo">
+							<img src="" alt="Логотип">
+						</div>
+						<div class="partners_logo">
+							<img src="" alt="Логотип">
+						</div>						
+					</div>				
+					<div class="partners_partners">
+						<p class="text2">Наши партнеры</p>
+						<p class="text5">ArmPlatform разрабатывается и поддерживается без комиссий и оплаты за пользование</p>	
+						<p class="text5 partner_item">Но мы бы не справились без наших партнеров:</p>	
+					</div>
+				</div>
+			</div>				
+			<div class="subscribe_row"> 					
+				<div class="subscribe_column">
+					<div class="subscribe_text">
+						<p class="sub_support">Поддержите наш проект</p>
+						<p class="text2 sub_head">Для дальнейшего развития проекта и решения социальных вопросов армян нам нужна ваша помощь.</p>
+						<p class="text5">Подпишитесь на нашу ежемесячную рассылку всего за 200 руб. в месяц и вы внесете свой вклад в наше общее дело</p>
+						<p class="text5">Для подписки заполните форму, <br>кликнув на кнопку ниже</p>  					
+						<button class="subcsribe_button" type="button">Подписаться на рассылку</button>	 
+					</div>			 				  			
+		  			<div class="subscribe_picture">
+		  				<img class="sub_picture" src="img/help.png" alt="">
+		  			</div> 
+		  		</div>
+	  		</div>
+	  	</div>	  	
+	</section>
+	<footer class="footer" id="contacts">
+		<div class="container">
+	  		<p class="text2">По всем вопросам обращайтесь</p>
+	  		<div class="footer_row">
+	  			<div class="footer_column1">
+	  				<div class="footer_item">
+	  					<img src="icons/post.svg" alt=""> 			
+	  					<p class="text5">Почта@арчиа</p>
+	  				</div>
+		  			<div class="footer_item">
+		  				<img src="icons/phone.svg" alt="">
+			  			<p class="text5">9(999)999-99-99</p>
+		  			</div>
+	  			</div>		  				  		
+	  			<div class="footer_column2">
+	  				<div class="footer_item">
+	  					<img src="icons/instagram.svg" alt="">
+	  					<p class="text5">9(999)999-99-99</p>
+	  				</div>
+	  				<div class="footer_item">
+	  					<img src="icons/telegram.svg" alt="">
+		  				<p class="text5">9(999)999-99-99</p>
+	  				</div>  			
+	  			</div>
+	  		</div>
+	  	</div>
+	</footer>	
+  		<button class="scroll_top" onclick="scrollToTop()" type="button"><img src="icons/up.svg" alt="">
+  			<p class="text5 up">Наверх</p>
+  		</button>
+
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+	<script>
+		function scrollToTop(){
+			window.scrollTo({top: 0, behavior: 'smooth'});
+		}
+
+		window.addEventListener('scroll', () => {
+			const scrollTop    = document.documentElement.scrollTop;
+			const innerHeight  = window.innerHeight;
+			const element = document.getElementsByClassName('scroll_top')[0];
+			element.style.display = scrollTop > innerHeight ? 'block' : 'none';
+		})
+
+		$(document).ready(function () {
+			$('#burger_icon').click(function () {
+				if ($('body').hasClass('open-burger-menu')) {
+					$('.menu_burger').css('display', 'none');
+					$('body').removeClass('open-burger-menu');
+				} else {
+					$('.menu_burger').css('display', 'flex');
+					$('body').addClass('open-burger-menu');
+				}
+			});
+
+			$('.menu-overlay, #close-burger-menu').click(function () {
+				$('.menu_burger').css('display', 'none');
+				$('body').removeClass('open-burger-menu');
+			})
+		})
+
+		function scrollToElem(id) {
+			var hiddenElement = document.getElementById(id);
+			hiddenElement.scrollIntoView({ behavior: "smooth"});
+
+		}
+	</script>
+
+</body>
+</html>
